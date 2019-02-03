@@ -1,0 +1,35 @@
+body{
+    background-color:#FECC66;
+    font-family:sans-serif;
+}
+
+li{
+	text-decoration: none;
+	color: black;
+}
+
+/*Code from: https://www.w3schools.com/css/css_navbar.asp*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a{
+  display: block;
+  color: #000;
+  list-style-type: none;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orange;
+}
+
+.currentpage{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
